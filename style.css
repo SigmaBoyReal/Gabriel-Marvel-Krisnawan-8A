@@ -1,0 +1,98 @@
+header {
+    border: 3px solid blue;
+    padding: 100px;
+    text-align: center;
+}
+
+header h1 {
+    color: black;
+    font-style: oblique;
+}
+
+header p {
+    font-style: italic;
+}
+
+header img {
+    width: 100%;
+    border: 3px  gold;
+    border-radius: 1%;
+    box-shadow: 3px 3px 35px yellow;
+}
+
+header img:hover {
+    transform: scale(0.9);
+    transition: all .3s ease-in-out;
+}
+
+header button {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 30px;
+    background-color: burlywood;
+    color: white;
+    border: none;
+}
+
+header button:hover {
+    background-color: white;
+    color: chocolate;
+    border: 2px yellow;
+    transform: 0.55;
+    transition: all .4s ease-in-out;
+}
+#about {
+    width: 95%;
+    margin: 40px auto;
+    display: flex;
+}
+.left-about {
+    width: 50%;
+}
+.left-about img {
+    width: 85%;
+    box-shadow: 3px 3px 15px yellow;
+    border-radius: 40px 4%;
+}
+.right-about {
+    width: 50%;
+    padding: 40px;
+}
+.right-about h2 {
+    color: lightseagreen;
+    text-align: center;
+}
+.right-about p {
+    text-align: center;
+}
+#Preoject {
+    width: 90%;
+    margin: 30px auto;
+    border: 1px solid black;
+    text-align: center;
+}
+.Project {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Preoject-image img {
+    width: 50%;
+    padding: 20px;
+    margin: 0 auto;
+}
+.Preoject-image img:hover {
+    transform: scale(.9);
+    transition: all.3s ease-in-out;
+    box-shadow: 4px 4px 10px yellow;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: gray;
+    color: antiquewhite;
+    border-top: 1px solid black;
+}
+footer img {
+    width: 24px;
+}
